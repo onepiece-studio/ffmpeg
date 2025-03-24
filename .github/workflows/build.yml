@@ -7,7 +7,7 @@ jobs:
   build:
     permissions:
       contents: write
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -62,13 +62,17 @@ jobs:
 
       - name: Setup Xcode to support visionOS
         run: |
-          sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+          sudo xcode-select -s /Applications/Xcode_16.2.app/Contents/Developer
           xcodebuild -showsdks
 
       - name: Build version
         run: |
           make build version=${{ env.RELEASE_VERSION }}
 
+      - name: Update Package.swift
+        run: |
+          rm -rf ./Package.swift
+          cp -f ./dist/release/Package.swift ./Package.swift
 
       - name: Push Package.swift
         uses: EndBug/add-and-commit@v9

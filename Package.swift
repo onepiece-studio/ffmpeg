@@ -1,4 +1,4 @@
-// swift-tools-version:5.8
+// swift-tools-version:6.0
 
 import PackageDescription
 
@@ -6,10 +6,14 @@ let package = Package(
     name: "FFmpeg",
     platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13)],
     products: [
-        .library(
-            name: "FFmpeg",
-            targets: ["FFmpeg"]
-        ),
+        .library(name: "FFmpeg", targets: ["FFmpeg"]),
+        .library(name: "Libavcodec", targets: ["Libavcodec"]),
+        .library(name: "Libavfilter", targets: ["Libavfilter"]),
+        .library(name: "Libavformat", targets: ["Libavformat"]),
+        .library(name: "Libavutil", targets: ["Libavutil"]),
+        .library(name: "Libswresample", targets: ["Libswresample"]),
+        .library(name: "Libswscale", targets: ["Libswscale"]),
+        .library(name: "Libass", targets: ["Libass"]),
     ],
     targets: [
         .target(

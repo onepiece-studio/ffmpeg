@@ -6,10 +6,14 @@ let package = Package(
     name: "FFmpeg",
     platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13)],
     products: [
-        .library(
-            name: "FFmpeg",
-            targets: ["FFmpeg"]
-        ),
+        .library(name: "FFmpeg", targets: ["FFmpeg"]),
+        .library(name: "Libavcodec", targets: ["Libavcodec"]),
+        .library(name: "Libavfilter", targets: ["Libavfilter"]),
+        .library(name: "Libavformat", targets: ["Libavformat"]),
+        .library(name: "Libavutil", targets: ["Libavutil"]),
+        .library(name: "Libswresample", targets: ["Libswresample"]),
+        .library(name: "Libswscale", targets: ["Libswscale"]),
+        .library(name: "Libass", targets: ["Libass"]),
     ],
     targets: [
         .target(
@@ -36,41 +40,6 @@ let package = Package(
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),
             ]
-        ),
-        .binaryTarget(
-            name: "Libavcodec",
-            url: "\(Libavcodec_url)",
-            checksum: "\(Libavcodec_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libavdevice",
-            url: "\(Libavdevice_url)",
-            checksum: "\(Libavdevice_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libavformat",
-            url: "\(Libavformat_url)",
-            checksum: "\(Libavformat_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libavfilter",
-            url: "\(Libavfilter_url)",
-            checksum: "\(Libavfilter_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libavutil",
-            url: "\(Libavutil_url)",
-            checksum: "\(Libavutil_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libswresample",
-            url: "\(Libswresample_url)",
-            checksum: "\(Libswresample_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libswscale",
-            url: "\(Libswscale_url)",
-            checksum: "\(Libswscale_checksum)"
         ),
         //AUTO_GENERATE_TARGETS_BEGIN//
         //AUTO_GENERATE_TARGETS_END//
