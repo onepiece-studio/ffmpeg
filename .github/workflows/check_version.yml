@@ -94,7 +94,7 @@ jobs:
         library:
           - name: libass
             repository: "mpvkit/libass-build"
-          - name: smbclient
+          - name: libsmbclient
             repository: "mpvkit/libsmbclient-build"
           - name: libdovi
             repository: "mpvkit/libdovi-build"
