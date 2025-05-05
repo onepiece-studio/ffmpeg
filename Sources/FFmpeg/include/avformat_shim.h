@@ -108,6 +108,15 @@ int ffurl_read2(void *urlcontext, uint8_t *buf, int size);
  * unnecessary, if the return value is < size then it is
  * certain there was either an error or the end of file was reached.
  */
+int ffurl_read_complete(URLContext *h, unsigned char *buf, int size);
+
+/**
+ * Read as many bytes as possible (up to size), calling the
+ * read function multiple times if necessary.
+ * This makes special short-read handling in applications
+ * unnecessary, if the return value is < size then it is
+ * certain there was either an error or the end of file was reached.
+ */
 int ffurl_write2(void *urlcontext, uint8_t *buf, int size);
 
 /**
