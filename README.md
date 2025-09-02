@@ -1,6 +1,6 @@
 # FFmpeg
 
-[![ffmpeg](https://img.shields.io/badge/ffmpeg-n7.1.1-blue.svg)](https://github.com/FFmpeg/FFmpeg)
+[![ffmpeg](https://img.shields.io/badge/ffmpeg-n8.0-blue.svg)](https://github.com/FFmpeg/FFmpeg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![build](https://github.com/onepiece-studio/ffmpeg/actions/workflows/build.yml/badge.svg)
 ![check_version](https://github.com/onepiece-studio/ffmpeg/actions/workflows/check_version.yml/badge.svg)
