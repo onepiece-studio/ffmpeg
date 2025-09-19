@@ -60,9 +60,9 @@ jobs:
           brew install ninja
           brew install rename
 
-      - name: Setup Xcode to support visionOS
+      - name: Setup Xcode
         run: |
-          sudo xcode-select -s /Applications/Xcode_16.2.app/Contents/Developer
+          sudo xcode-select -s /Applications/Xcode_16.4.app/Contents/Developer
           xcodebuild -showsdks
 
       - name: Build version
