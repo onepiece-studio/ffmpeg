@@ -146,37 +146,37 @@ let package = Package(
         .binaryTarget(
             name: "Libavcodec",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libavcodec.xcframework.zip",
-            checksum: "87ed1c0d07217db4ec5f91e4a2fb434829ad28872e7a93eed1331b0f967ff6f0"
+            checksum: "1711595f91781fa3d82fae802fe9e91e4f8df611aae3535d762be253e7a22c6d"
         ),
         .binaryTarget(
             name: "Libavdevice",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libavdevice.xcframework.zip",
-            checksum: "124d7219edb948dcbce22a0323b97d29e1f27899e8af5acab18ca97680a5cea4"
+            checksum: "77fd9fe9181843876dab5c03ecf755852165892803d51af2cfca42d0d54234b4"
         ),
         .binaryTarget(
             name: "Libavformat",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libavformat.xcframework.zip",
-            checksum: "0cca495a7f18593ae77d9654ca5db4c1d654b245a4140d75242c5a1320cdda0a"
+            checksum: "fcd049058f9eeb71b4c1ca457e416876a168f3358ad4c2990c5712650ed06144"
         ),
         .binaryTarget(
             name: "Libavfilter",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libavfilter.xcframework.zip",
-            checksum: "88a322617b2b9008aed6f65ccbe58e5898e99fddfb3e0d661ec0c3ff89062518"
+            checksum: "2b3d78ac00fc60d15d46bee6a965a205142df87a8fe0f89fdef14213eeb6426b"
         ),
         .binaryTarget(
             name: "Libavutil",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libavutil.xcframework.zip",
-            checksum: "4318512941578c937c7c0892b4c7e59547a6aff13908a64bc9cc510bce76cb8e"
+            checksum: "97fc22c6d577f45f5d93784a35d729766a2e70165a95e03919a9c0f73c85c03f"
         ),
         .binaryTarget(
             name: "Libswresample",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libswresample.xcframework.zip",
-            checksum: "c8eaaf9ca38809c74fea08c454315cac94de9c80b1427a6fac77e808204705da"
+            checksum: "a912ff681689df9ef1486668f58c23675e38415339a467706b871b123bd30241"
         ),
         .binaryTarget(
             name: "Libswscale",
             url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.0.0/Libswscale.xcframework.zip",
-            checksum: "dd82957d54b07af2ff806ed70f5b5b8499af5aa6053734f2d92ee809054d850f"
+            checksum: "4b1399d19808fb04537973625879a5ee1905919dadd17335d5b45394f3b2f930"
         ),
         //AUTO_GENERATE_TARGETS_END//
     ]
