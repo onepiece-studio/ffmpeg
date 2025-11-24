@@ -50,7 +50,7 @@ enum Library: String, CaseIterable {
         case .gmp:
             return "3.8.3"
         case .libass:
-            return "0.17.3"
+            return "0.17.4"
         case .libunibreak:
             return "0.17.3"
         case .libfreetype:
