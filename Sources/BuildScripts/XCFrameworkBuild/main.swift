@@ -64,7 +64,7 @@ enum Library: String, CaseIterable {
         case .libdav1d:    // AV1 decoding
             return "1.4.3"
         case .libdovi:
-            return "3.3.1"
+            return "3.3.2"
         case .libbluray:
             return "1.3.4"
         case .libopus:
