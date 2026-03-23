@@ -40,7 +40,7 @@ enum Library: String, CaseIterable {
     var version: String {
         switch self {
         case .FFmpeg:
-            return "n8.0.1"
+            return "n8.1"
         case .openssl:
             return "3.2.0"
         case .gnutls:
