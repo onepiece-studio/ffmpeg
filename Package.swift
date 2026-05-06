@@ -145,38 +145,38 @@ let package = Package(
 
         .binaryTarget(
             name: "Libavcodec",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libavcodec.xcframework.zip",
-            checksum: "bbda8d871792a04310862ad54c4dafaa7185194fc4c0f108660ff5907cb85d49"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libavcodec.xcframework.zip",
+            checksum: "0be5c3eebb8fa55babddaf8a5a9d3833dc63fb3511270ee6989a1d19600fc03f"
         ),
         .binaryTarget(
             name: "Libavdevice",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libavdevice.xcframework.zip",
-            checksum: "d196099dd5057dc813287622b6b445c7f43bed11fe40d204bad255c53b06cb7c"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libavdevice.xcframework.zip",
+            checksum: "7b650e5254a73fb3d1431f6dc9c5138b34ac5fb0664ed83da7bac591392a73d6"
         ),
         .binaryTarget(
             name: "Libavformat",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libavformat.xcframework.zip",
-            checksum: "007e4d6eeaba23bc662cade4b97caeeefeeb1e22625dfee1fd7637c1cd560000"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libavformat.xcframework.zip",
+            checksum: "308016f818c67910d5437cb87573bfba2707956c3034e12e091e76d77b2511b7"
         ),
         .binaryTarget(
             name: "Libavfilter",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libavfilter.xcframework.zip",
-            checksum: "e070ad091f828d884cfb207cbb62a0ba6bd173e99398b6f7427c5419789d227c"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libavfilter.xcframework.zip",
+            checksum: "10918eedbc11b863eef2c56f1b155eefedfd135a1fb6c0ae1d42191f1584e533"
         ),
         .binaryTarget(
             name: "Libavutil",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libavutil.xcframework.zip",
-            checksum: "b46909e0bd1c3d9054662a0cc21fcf7cf6791ab6de5ffc3625e4697a6dd72a80"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libavutil.xcframework.zip",
+            checksum: "8c59a6e0b7086968eaffab07ee1bcbaca774072c0b4c2a9961cdb3b15a3ec4ed"
         ),
         .binaryTarget(
             name: "Libswresample",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libswresample.xcframework.zip",
-            checksum: "46917f6630f6e01d0a1179b164c707c29053ab9b4df92d9e78b668f945f9386b"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libswresample.xcframework.zip",
+            checksum: "b09cb57b131b5dc222c7d7e03516193aa322fdd51fe3e9bf00f7a17467b3f169"
         ),
         .binaryTarget(
             name: "Libswscale",
-            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.0/Libswscale.xcframework.zip",
-            checksum: "256ba826eaa64856b4e29a218018bf5bd5aec3daaf03ce2a300a9d390e8bbb11"
+            url: "https://github.com/onepiece-studio/ffmpeg/releases/download/8.1.1/Libswscale.xcframework.zip",
+            checksum: "6322067ac4ad50803f8d7dbf4cf3b4c5c08f3c77a7a62c5759ea213b546b601e"
         ),
         //AUTO_GENERATE_TARGETS_END//
     ]
